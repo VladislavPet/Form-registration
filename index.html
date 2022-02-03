@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.ccs.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Регистрация</h1>
+            <div class="input-control">
+                <label for="username">Имя</label>
+                <input id="username" name="username" type="username">
+                <div class="error"></div>
+            </div>
+			<div class="input-control">
+                <label for="username1">Фамилия</label>
+                <input id="username1" name="username1" type="surname">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Пароль</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Повторите пароль</label>
+                <input id="password2"name="password2" type="copypassword">
+                <div class="error"></div>
+            </div> 
+            <div class="input-control">
+                <label for="bday">дата рождения</label>
+                <input id="bday" type="date" max="2004-12-31" required="" />
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
